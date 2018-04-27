@@ -2,7 +2,7 @@
   "name": "login",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "zt",
+  "author": "dledj",
   "private": false,
   "main":"dis/login.min.js",
   "directories": {
