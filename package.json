@@ -1,10 +1,10 @@
 {
-  "name": "login",
-  "version": "1.0.0",
+  "name": "loginliyan",
+  "version": "1.0.1",
   "description": "A Vue.js project",
   "author": "dledj",
   "private": false,
-  "main":"dis/login.min.js",
+  "main": "dis/login.min.js",
   "directories": {
     "dist": "dist"
   },
@@ -13,12 +13,13 @@
     "start": "npm run dev",
     "build": "node build/build.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DledJ/login.git"
+  },
   "dependencies": {
-
     "iview": "^2.13.1",
-
     "vue": "^2.5.2"
-
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -65,5 +66,13 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/DledJ/login/issues"
+  },
+  "homepage": "https://github.com/DledJ/login#readme",
+  "keywords": [
+    "login"
+  ],
+  "license": "ISC"
 }
