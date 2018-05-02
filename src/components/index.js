@@ -7,9 +7,9 @@ import Login from './logintest.vue'
 
 // 这里的判断很重要
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(comment)
+  login(window.Vue);
 }
 
-export {
+export default{
   login
 }
